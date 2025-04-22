@@ -27,7 +27,8 @@ def translate_prize(code):
         "1": "First prize",
         "2": "Second prize",
         "3": "Third prize",
-        "Certificate of participation": "Certificate of participation"
+        "Certificate of participation": "Certificate of participation",
+        "mentioned": "Mentioned"
     }.get(code, code)
 
 # Helper to fill placeholders by index
