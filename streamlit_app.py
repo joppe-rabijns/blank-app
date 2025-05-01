@@ -52,10 +52,10 @@ if uploaded_file and template_file:
     prs = Presentation(template_file)
 
     # Remove the first slide from the template if present
-    if prs.slides:
-        xml_slides = prs.slides._sldIdLst
-        slides = list(xml_slides)
-        prs.slides._sldIdLst.remove(slides[0])
+    #if prs.slides:
+    #    xml_slides = prs.slides._sldIdLst
+    #    slides = list(xml_slides)
+    #    prs.slides._sldIdLst.remove(slides[0])
 
     header_layout = prs.slide_layouts[0]
     participant_layout = prs.slide_layouts[1]
