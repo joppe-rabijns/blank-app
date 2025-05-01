@@ -22,13 +22,13 @@ def translate_prize(code):
         return ""
     code = str(code).strip()
     return {
-        "1 CL": "First prize cum laude",
-        "1 SCL": "First prize summa cum laude",
-        "1": "First prize",
-        "2": "Second prize",
-        "3": "Third prize",
-        "Certificate of participation": "Certificate of participation",
-        "mentioned": "Mentioned"
+        "1 CL": "FIRST PRIZE\nCUM LAUDE",
+        "1 SCL": "FIRST PRIZE\nSUMMA CUM LAUDE",
+        "1": "FIRST PRIZE",
+        "2": "SECOND PRIZE",
+        "3": "THIRD PRIZE",
+        "Certificate of participation": "CERTIFICATE OF PARTICIPATION",
+        "mentioned": "MENTIONED"
     }.get(code, code)
 
 # Helper to fill placeholders by index
