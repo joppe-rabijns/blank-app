@@ -94,8 +94,8 @@ if uploaded_file and template_file:
 
             fill_placeholders_by_index(slide1, {
                  1: f"",
-                 21: stad,
-                 22: land,
+                 21: land,
+                 22: stad,
                  23: formatted_reeks,
                  24: naam,
             })
@@ -104,8 +104,8 @@ if uploaded_file and template_file:
             slide2 = prs.slides.add_slide(participant_layout)
             fill_placeholders_by_index(slide2, {
                 1: prijs,
-                21: stad,
-                22: land,
+                21: land,
+                22: stad,
                 23: formatted_reeks,
                 24: naam,
             })
